@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms & input</title>
+    <style>
+    body {
+        background-color: aliceblue; 
+        color: black;
+
+    }
+    input{
+        background-color: aliceblue;
+
+    }
+    input:hover { 
+        background-color: rgb(191, 195, 199)
+
+    }
+    textarea:hover{
+        background-color: rgb(191, 195, 199)
+
+
+    } 
+    .color {
+        background-color: rgb(228, 197, 159);
+    }
+    #submit{
+    background-color: rgb(228, 197, 159);
+  } 
+   a{
+    text-decoration: none;
+    background-color:aliceblue ;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius:5px ;
+    margin: 0 0 100px 0 ;
+  } 
+  
+    
+    </style>
+    <div>
+    
+    </div>
+</head>
+<body> 
+   
+<div>
+    <a href="index.html">Home</a>
+</div>
+    <form action="#">
+
+    <div>
+    <label for="name" >Name</label><br>
+    <input type="text" id="name" name="name" title="your full name" placeholder="Enter your name"><br>
+
+    </div>
+    <div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="something@gmail.com">
+    </div>
+    <div>
+    
+        <label for="age">Age</label><br>
+        <input type="number" id="age" >
+    </div> 
+    <div>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="sex">Sex</label><br>
+        <select name="sex" id="sex">Sex
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div>
+    <label for="birthdate">Birthdate</label><br>
+    <input type="date" name="birthdate" id="birthdate">
+    </form>
+    <div>
+        <label for="membership">Membership</label><br>
+        <label for="membership">Regular</label>
+        <input type="radio" name="membership" id="membership" value="regular" id="membership">
+        <label for="membership">Standard</label>
+        <input type="radio" name="membership" id="membership" value="standard" id="membership">
+        <label for="membership">premium</label>
+        <input type="radio" name="membership" id="membership" value="premium" id="membership">
+
+    </div><br>
+    <div>
+
+    </div>
+<label for="ilike...">THE GOAT IS...</label><br>
+        <label for="membership" >RONALDO</label>
+        <input type="checkbox" name="ilike" id="i like" checked value="regular" >
+        <label for="membership">MESSI</label>
+        <input type="checkbox" name="ilove" id="i love" value="standard">
+        <label for="membership">MBAPPE</label>
+        <input type="checkbox" name="irresistible" id="irresistible" value="premium">
+<div>
+    <button type="submit" id="submit">submit</button>
+
+    <button type="reset" id="reset">reset</button>
+</div>
+</body> 
+</html>
